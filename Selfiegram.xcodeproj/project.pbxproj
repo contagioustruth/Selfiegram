@@ -10,10 +10,10 @@
 		6C58A3691DDC0D34000FD5C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C58A3681DDC0D34000FD5C2 /* AppDelegate.swift */; };
 		6C58A36B1DDC0D34000FD5C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C58A36A1DDC0D34000FD5C2 /* ViewController.swift */; };
 		6C58A36E1DDC0D34000FD5C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C58A36C1DDC0D34000FD5C2 /* Main.storyboard */; };
-		6C58A3701DDC0D34000FD5C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C58A36F1DDC0D34000FD5C2 /* Assets.xcassets */; };
 		6C58A3731DDC0D34000FD5C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C58A3711DDC0D34000FD5C2 /* LaunchScreen.storyboard */; };
 		6C58A37E1DDC0D34000FD5C2 /* SelfiegramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C58A37D1DDC0D34000FD5C2 /* SelfiegramTests.swift */; };
 		6C58A3891DDC0D34000FD5C2 /* SelfiegramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C58A3881DDC0D34000FD5C2 /* SelfiegramUITests.swift */; };
+		6C58A3971DDC14D4000FD5C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C58A3961DDC14D4000FD5C2 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,6 @@
 		6C58A3681DDC0D34000FD5C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6C58A36A1DDC0D34000FD5C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6C58A36D1DDC0D34000FD5C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6C58A36F1DDC0D34000FD5C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C58A3721DDC0D34000FD5C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C58A3741DDC0D34000FD5C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C58A3791DDC0D34000FD5C2 /* SelfiegramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelfiegramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +46,7 @@
 		6C58A3841DDC0D34000FD5C2 /* SelfiegramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelfiegramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C58A3881DDC0D34000FD5C2 /* SelfiegramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfiegramUITests.swift; sourceTree = "<group>"; };
 		6C58A38A1DDC0D34000FD5C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C58A3961DDC14D4000FD5C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../Downloads/iOS-Selfiegram-Images-master/Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +100,7 @@
 				6C58A3681DDC0D34000FD5C2 /* AppDelegate.swift */,
 				6C58A36A1DDC0D34000FD5C2 /* ViewController.swift */,
 				6C58A36C1DDC0D34000FD5C2 /* Main.storyboard */,
-				6C58A36F1DDC0D34000FD5C2 /* Assets.xcassets */,
+				6C58A3961DDC14D4000FD5C2 /* Assets.xcassets */,
 				6C58A3711DDC0D34000FD5C2 /* LaunchScreen.storyboard */,
 				6C58A3741DDC0D34000FD5C2 /* Info.plist */,
 			);
@@ -233,7 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C58A3731DDC0D34000FD5C2 /* LaunchScreen.storyboard in Resources */,
-				6C58A3701DDC0D34000FD5C2 /* Assets.xcassets in Resources */,
+				6C58A3971DDC14D4000FD5C2 /* Assets.xcassets in Resources */,
 				6C58A36E1DDC0D34000FD5C2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
